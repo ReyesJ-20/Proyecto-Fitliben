@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.apartado {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.apartado>* {
+    flex: 1 1 200px;
+    margin: 1rem;
+}
+
+.apartado {
+    background-color: rgb(246, 248, 248);
+    color: black;
+    font-size: 120%;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    padding: 1px;
+    margin: 1cm;
+}
+
+.apartado:hover {
+    opacity: .9;
+    transform: scale(.9);
+    border: 5px solid #1e8499;
+}
+
+.apartado img {
+    max-width: 30%;
+    height: auto;
+}
+
+.apartado figcaption {
+    padding: 1rem;
+}
